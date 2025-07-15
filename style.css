@@ -1,0 +1,51 @@
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+  }
+
+  
+  
+  .card {
+    max-width: 800px;
+    margin: auto;
+    width: 100%;
+   
+    margin: 10vh auto;
+    padding: 20px;
+    background-color: #f5cbcb;
+    border-radius: 8px;
+    font-size: 18px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    color: #333;
+
+  }
+
+  .sign-head{
+    color: black;
+    text-align: center;
+   
+    margin-bottom: 30px;
+    font-style: italic;
+    font-size: 50px;
+  }
+
+  .link{
+    color: rgb(33, 116, 33);
+  }
+  .validation-message {
+    color: red;
+    font-size: 0.875rem;
+    margin-top: 0.25rem;
+  }
+  
+  input.is-valid {
+    border-color: #28a745;
+  }
+  
+  input.is-invalid {
+    border-color: #dc3545;
+  }
+  
+  .success-message {
+    color: #28a745;
+  }
